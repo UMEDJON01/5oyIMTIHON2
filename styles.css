@@ -8,7 +8,12 @@ html {
   line-height: 2.39rem;
   letter-spacing: -0.01875rem;
 }
-
+.card__border {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fff;
+}
 h2 {
   font-size: 1.0625rem;
   margin-top: 3.4375rem;
@@ -102,7 +107,7 @@ h2 {
 }
 @media screen and (max-width: 768px) {
   html {
-    font-size: 12px;
+    font-size: 10px;
   }
   .container {
     width: 343px;
@@ -127,6 +132,6 @@ h2 {
 
 @media screen and (max-width: 576px) {
   html {
-    font-size: 10px;
+    font-size: 8px;
   }
 }
