@@ -135,5 +135,6 @@ h2 {
     height: 500px;
     justify-content: center;
     align-items: center;
+    text-align: center;
   }
 }
