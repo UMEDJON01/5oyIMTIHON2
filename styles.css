@@ -1,0 +1,132 @@
+html {
+  font-size: 16px;
+}
+
+.container p {
+  font-size: 1.875rem;
+  margin: 3.125rem 1.5625rem;
+  line-height: 2.39rem;
+  letter-spacing: -0.01875rem;
+}
+
+h2 {
+  font-size: 1.0625rem;
+  margin-top: 3.4375rem;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #202733;
+  text-align: center;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.container {
+  width: 540px;
+  height: 364px;
+  margin-top: 10%;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #313a48;
+  border-radius: 10px;
+  position: relative;
+}
+.container button {
+  background-color: #53ffaa;
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  bottom: -33px;
+  transform: translateX(-50%);
+  border-radius: 50px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+button:hover {
+  -webkit-box-shadow: 10px 2px 103px 20px rgba(83, 255, 170, 0.53);
+  -moz-box-shadow: 10px 2px 103px 20px rgba(83, 255, 170, 0.53);
+  box-shadow: 10px 2px 103px 20px rgba(83, 255, 170, 0.53);
+}
+
+.container p {
+  color: aliceblue;
+  margin: 50px 25px;
+  font-size: 30px;
+  font-family: Manrope;
+  font-weight: 800;
+  line-height: 38.25px;
+  letter-spacing: -0.30000001192092896px;
+  text-align: center;
+}
+
+.card__hr {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 45px;
+  width: 100%;
+}
+
+div hr {
+  width: 39%;
+  height: 0px;
+  opacity: 0.3;
+}
+div h3 {
+  margin-top: 1px;
+  font-weight: bold;
+}
+
+h2 {
+  color: #53ffaa;
+  font-family: Manrope;
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 17.76px;
+  letter-spacing: 4.085713863372803px;
+  text-align: center;
+  margin-top: 55px;
+}
+
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+  .container {
+    width: 343px;
+    height: 347px;
+    margin-top: 20%;
+  }
+  .card__p {
+    width: 295px;
+    height: 132px;
+    top: 79px;
+    left: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32.78px;
+    letter-spacing: -0.2571428716182709px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  html {
+    font-size: 10px;
+  }
+}
