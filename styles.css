@@ -110,8 +110,8 @@ h2 {
     font-size: 10px;
   }
   .container {
-    width: 343px;
-    height: 347px;
+    width: 90%;
+    max-width: 400px;
     margin-top: 20%;
   }
   .card__p {
@@ -133,5 +133,8 @@ h2 {
 @media screen and (max-width: 576px) {
   html {
     font-size: 8px;
+  }
+  .container {
+    height: auto;
   }
 }
