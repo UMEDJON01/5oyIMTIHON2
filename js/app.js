@@ -3,6 +3,11 @@ const button = document.querySelector(".card__btn");
 const h2Element = document.querySelector("h2");
 const container = document.querySelector(".container");
 
+function playMusic() {
+  const audio = new Audio("./music/mp3.mp3");
+  audio.play();
+}
+
 function fetchData() {
   const apiURL = "https://api.adviceslip.com/advice";
   fetch(apiURL)
@@ -19,6 +24,8 @@ function fetchData() {
       pElement.style.fontSize = fontSize + "px";
 
       adjustContainerHeight();
+
+      playAudio();
     })
     .catch((error) => console.error(error));
 }
