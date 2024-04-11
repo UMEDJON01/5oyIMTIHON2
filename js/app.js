@@ -25,7 +25,7 @@ function fetchData() {
 
       adjustContainerHeight();
 
-      playAudio();
+      playMusic();
     })
     .catch((error) => console.error(error));
 }
